@@ -1,0 +1,48 @@
+.d-block {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 50;
+}
+.box-str{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    text-align: center;
+    z-index: 1000;
+    .str__title{
+        font-family: 'Fredoka',sans-serif;
+        font-size: 60px;
+        margin: 0  0 50px 0;
+    }
+    #str-text{
+        width: 300px;
+        padding: 5px 10px;
+        border: none;
+        border-bottom: 1px solid black;
+         font-family: 'Fredoka',
+         sans-serif;
+        &:focus{
+            border: none;
+            outline: none;
+            border-bottom: solid 1px blue;
+        }
+       
+    }
+    .str__btn{
+        font-family: 'Fredoka',
+        sans-serif;
+        margin-left: 10px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        background-color: #007BFF;
+        border: transparent;
+        color:white;
+        transition: 1s all ease;
+        &:hover{
+            background-color: blue;
+        }   
+    }
+}   
